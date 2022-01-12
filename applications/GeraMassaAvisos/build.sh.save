@@ -1,0 +1,7 @@
+#!/bin/sh
+docker build . \
+-t gugahh/gera-massa-avisogera-massa-avisoss:latest \
+-t gugahh/ubuntu-oracle-nodejs:0.1 \
+--build-arg ftp_repo_user=gugahh.zapto.org \
+--build-arg ftp_repo_passwd=guest \
+--build-arg ftp_repo_home_addr=9w7vBSBBLGCpkWr

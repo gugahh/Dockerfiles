@@ -1,0 +1,9 @@
+#Imagem baseada em Alpine Linux, com NodeJs, GIT e Bash
+
+#Download base image
+FROM alpine:3.15
+
+LABEL maintainer="gugahh.br@gmail.com"
+LABEL version="0.1"
+
+
